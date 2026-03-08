@@ -13,7 +13,7 @@ function AppContent() {
   return (
     <div style={{ display: "flex" }}>
       {!hideSidebar && <Sidebar />}
-      <div style={{ flex: 1, padding: "60px" }}>
+      <div style={{ flex: 1, padding: "30px" }}>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
