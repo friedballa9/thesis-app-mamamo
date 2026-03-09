@@ -1,0 +1,116 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* LAYOUT */
+
+.dashboard-container{
+display:flex;
+height:100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:250px;
+background:#9ed45a;
+padding:30px;
+}
+
+.sidebar h1{
+color:white;
+margin-bottom:30px;
+}
+
+.sidebar button{
+display:block;
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+background:none;
+color:white;
+font-weight:bold;
+font-size:16px;
+cursor:pointer;
+text-align:left;
+}
+
+/* MAIN AREA */
+
+.main{
+flex:1;
+background:#d6d9b2;
+}
+
+/* TOPBAR */
+
+.topbar{
+height:60px;
+background:#3a3a3a;
+display:flex;
+justify-content:flex-end;
+align-items:center;
+padding-right:30px;
+position:relative;
+}
+
+/* PROFILE ICON */
+
+.profile-icon{
+width:35px;
+height:35px;
+background:#ff5aa5;
+border-radius:50%;
+cursor:pointer;
+}
+
+/* DROPDOWN MENU */
+
+.dropdown{
+position:absolute;
+top:60px;
+right:20px;
+background:#eeeeee;
+padding:10px;
+width:150px;
+border-radius:5px;
+}
+
+.dropdown p{
+margin:10px 0;
+cursor:pointer;
+}
+
+/* CONTENT */
+
+.content{
+padding:40px;
+}
+
+/* MOTIVATIONAL QUOTE */
+
+.quote-box{
+background:#3a3a3a;
+color:white;
+padding:40px;
+border-radius:20px;
+width:650px;
+}
+
+/* LINE */
+
+.divider{
+margin:40px 0;
+border:1px solid #999;
+}
+
+/* PAGE CONTENT */
+
+.page-content{
+background:white;
+padding:20px;
+border-radius:10px;
+width:650px;
+}
