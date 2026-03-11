@@ -91,8 +91,7 @@ export default function Dashboard() {
           <div className="quote-box">
 
             <h2>
-              "Your mental health is a priority.
-              Your happiness is essential."
+              mamamo
             </h2>
 
           </div>

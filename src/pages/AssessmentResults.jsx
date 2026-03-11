@@ -6,7 +6,7 @@ export default function AssessmentResults(){
   return(
     <div className="container">
 
-      <Sidebar/>
+
 
       <div className="main">
 
